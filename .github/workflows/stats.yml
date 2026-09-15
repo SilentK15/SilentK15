@@ -3,13 +3,14 @@ name: Generate Profile Stats
 on:
   schedule:
     - cron: "17 3 * * *"
+
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: generate-profile-stats
+  group: profile-stats
   cancel-in-progress: false
 
 jobs:
@@ -17,15 +18,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Generate profile cards
+      - name: Generate Profile Cards
         uses: seijikohara/profile-cards-action@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          cards: overview,languages
+          cards: overview,languages,contributions
           output-dir: profile
           themes: light,dark
           commit: true
