@@ -110,19 +110,31 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 
 <div align="center">
 
-<img
-  src="./profile/github-stats.svg"
-  width="100%"
-  alt="GitHub Stats"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/stats.svg"
+  />
+  <img
+    src="./profile/stats.svg"
+    width="100%"
+    alt="GitHub Stats"
+  />
+</picture>
 
 <br><br>
 
-<img
-  src="./profile/language-stats.svg"
-  width="100%"
-  alt="GitHub Language Statistics"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/top-langs.svg"
+  />
+  <img
+    src="./profile/top-langs.svg"
+    width="100%"
+    alt="Most Used Languages"
+  />
+</picture>
 
 </div>
 
@@ -132,11 +144,17 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 
 <div align="center">
 
-<img
-  src="./profile/contributions.svg"
-  width="100%"
-  alt="GitHub Contributions"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/activity-consistency-wide-dark.svg"
+  />
+  <img
+    src="./profile/activity-consistency-wide-light.svg"
+    width="100%"
+    alt="GitHub Contribution Activity"
+  />
+</picture>
 
 </div>
 
