@@ -111,17 +111,17 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/SilentK15/SilentK15/main/profile/overview.dark.svg"
+  src="./profile/github-stats.svg"
   width="100%"
-  alt="GitHub Overview"
+  alt="GitHub Stats"
 />
 
 <br><br>
 
 <img
-  src="https://raw.githubusercontent.com/SilentK15/SilentK15/main/profile/languages.dark.svg"
+  src="./profile/language-stats.svg"
   width="100%"
-  alt="Most Used Languages"
+  alt="GitHub Language Statistics"
 />
 
 </div>
@@ -133,9 +133,9 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 <div align="center">
 
 <img
-  src="https://raw.githubusercontent.com/SilentK15/SilentK15/main/profile/contributions.dark.svg"
+  src="./profile/contributions.svg"
   width="100%"
-  alt="GitHub Contribution History"
+  alt="GitHub Contributions"
 />
 
 </div>
