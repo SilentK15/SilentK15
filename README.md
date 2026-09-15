@@ -28,7 +28,7 @@
 
 ```text
 🎓 BE Information Technology Student
-💻 Full-Stack Developer
+💻 Full-Stack Developer  
 🚀 Building things that matter
 ```
 
@@ -106,63 +106,27 @@ fun_fact: "I turn ☕ into <code/>"
 
 ## 📊 GitHub Stats
 
+<!-- Stats are auto-generated daily by GitHub Actions → self-hosted SVGs, always reliable -->
+
 <div align="center">
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=SilentK15&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9&ring_color=58A6FF&count_private=true&include_all_commits=true"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=SilentK15&show_icons=true&theme=default&hide_border=true&count_private=true&include_all_commits=true"
-    width="49%"
-    alt="GitHub Stats"
-  />
-</picture>
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-streak-stats.herokuapp.com?user=SilentK15&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"
-  />
-  <img
-    src="https://github-readme-streak-stats.herokuapp.com?user=SilentK15&theme=default&hide_border=true"
-    width="49%"
-    alt="GitHub Streak"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/stats.svg" />
+  <img src="./profile/stats.svg" width="100%" alt="GitHub Stats" />
 </picture>
 
 <br><br>
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=SilentK15&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&text_color=c9d1d9&langs_count=8"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=SilentK15&layout=compact&theme=default&hide_border=true&langs_count=8"
-    width="45%"
-    alt="Most Used Languages"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/top-langs.svg" />
+  <img src="./profile/top-langs.svg" width="100%" alt="Most Used Languages" />
 </picture>
 
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
+<br><br>
 
 <picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-activity-graph.vercel.app/graph?username=SilentK15&theme=github-dark&hide_border=true&bg_color=0d1117&color=58A6FF&line=58A6FF&point=c9d1d9&area=true&area_color=58A6FF"
-  />
-  <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=SilentK15&theme=github-light&hide_border=true&area=true"
-    width="100%"
-    alt="Contribution Graph"
-  />
+  <source media="(prefers-color-scheme: dark)" srcset="./profile/contributions.svg" />
+  <img src="./profile/contributions.svg" width="100%" alt="Contribution Activity" />
 </picture>
 
 </div>
@@ -173,17 +137,11 @@ fun_fact: "I turn ☕ into <code/>"
 
 <div align="center">
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://github-profile-trophy.vercel.app/?username=SilentK15&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"
-  />
-  <img
-    src="https://github-profile-trophy.vercel.app/?username=SilentK15&theme=flat&no-frame=true&no-bg=true&column=7&margin-w=10"
-    width="100%"
-    alt="GitHub Trophies"
-  />
-</picture>
+<img
+  src="https://github-trophies.vercel.app/?username=SilentK15&theme=algolia&no-frame=true&no-bg=true&column=7&margin-w=10"
+  width="100%"
+  alt="GitHub Trophies"
+/>
 
 </div>
 

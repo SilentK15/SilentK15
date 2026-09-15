@@ -1,0 +1,108 @@
+name: Generate GitHub Profile Stats
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: github-profile-stats
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ============================
+      # GitHub Stats Card
+      # ============================
+
+      - name: Generate GitHub Stats
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: profile/stats.svg
+          include-title: false
+          colors: dark
+          hide-keys: languages
+          category-order: general, repositories, contributions
+          show-border: true
+          border-radius: 6
+          fail-on-error: true
+          commit-and-push: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ============================
+      # Language Distribution
+      # ============================
+
+      - name: Generate Language Statistics
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: profile/top-langs.svg
+          include-title: false
+          colors: dark
+          hide-keys: general, repositories, contributions
+          category-order: languages
+          max-languages: 8
+          show-border: true
+          border-radius: 6
+          fail-on-error: true
+          commit-and-push: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ============================
+      # Contribution Activity
+      # ============================
+
+      - name: Generate Contribution Activity
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: profile/contributions.svg
+          include-title: false
+          colors: dark
+          hide-keys: general, repositories, languages
+          category-order: contributions
+          show-border: true
+          border-radius: 6
+          fail-on-error: true
+          commit-and-push: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # ============================
+      # Validate & Commit
+      # ============================
+
+      - name: Validate generated SVGs
+        run: |
+          test -s profile/stats.svg
+          test -s profile/top-langs.svg
+          test -s profile/contributions.svg
+          echo "Generated files:"
+          ls -lh profile/*.svg
+
+      - name: Commit generated stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/*.svg
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "📊 Update GitHub profile stats"
+            git push
+          fi
