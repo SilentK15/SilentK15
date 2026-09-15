@@ -4,9 +4,6 @@ on:
   schedule:
     - cron: "17 3 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
 
 permissions:
   contents: write
@@ -21,10 +18,10 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       # ============================
-      # GitHub Stats Card
+      # GitHub Stats
       # ============================
 
       - name: Generate GitHub Stats
@@ -43,7 +40,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ============================
-      # Language Distribution
+      # Language Statistics
       # ============================
 
       - name: Generate Language Statistics
@@ -82,7 +79,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       # ============================
-      # Validate & Commit
+      # Validate SVG Files
       # ============================
 
       - name: Validate generated SVGs
@@ -90,8 +87,13 @@ jobs:
           test -s profile/stats.svg
           test -s profile/top-langs.svg
           test -s profile/contributions.svg
+
           echo "Generated files:"
           ls -lh profile/*.svg
+
+      # ============================
+      # Commit Everything
+      # ============================
 
       - name: Commit generated stats
         run: |
@@ -103,6 +105,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "📊 Update GitHub profile stats"
+            git commit -m "Update GitHub profile stats"
             git push
           fi
