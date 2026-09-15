@@ -11,8 +11,8 @@
       srcset="https://raw.githubusercontent.com/SilentK15/SilentK15/output/github-snake.svg"
     />
     <img
-      alt="GitHub Contribution Snake"
       src="https://raw.githubusercontent.com/SilentK15/SilentK15/output/github-snake-dark.svg"
+      alt="GitHub Contribution Snake"
     />
   </picture>
 </p>
@@ -30,17 +30,11 @@
 <br>
 
 <a href="https://github.com/SilentK15">
-  <img
-    src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="GitHub"
-  />
+<img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
 
 <a href="https://www.linkedin.com/in/kshitij-shete-6b55512b6/">
-  <img
-    src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
+<img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
 </a>
 
 </div>
@@ -68,175 +62,23 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 
 ### Languages
 
-<p>
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
-    width="45"
-    height="45"
-    title="C"
-    alt="C"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
-    width="45"
-    height="45"
-    title="Java"
-    alt="Java"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
-    width="45"
-    height="45"
-    title="Python"
-    alt="Python"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-    width="45"
-    height="45"
-    title="JavaScript"
-    alt="JavaScript"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-    width="45"
-    height="45"
-    title="HTML5"
-    alt="HTML5"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
-    width="45"
-    height="45"
-    title="CSS3"
-    alt="CSS3"
-  />
-</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" width="45" height="45" title="C" alt="C">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" width="45" height="45" title="Java" alt="Java">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" title="Python" alt="Python">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" height="45" title="JavaScript" alt="JavaScript">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" height="45" title="HTML5" alt="HTML5">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" height="45" title="CSS3" alt="CSS3"></p>
 
 ### Frontend
 
-<p>
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-    width="45"
-    height="45"
-    title="React"
-    alt="React"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg"
-    width="45"
-    height="45"
-    title="Vite"
-    alt="Vite"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
-    width="45"
-    height="45"
-    title="Bootstrap"
-    alt="Bootstrap"
-  />
-</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="45" height="45" title="React" alt="React">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vite/vite-original.svg" width="45" height="45" title="Vite" alt="Vite">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" width="45" height="45" title="Bootstrap" alt="Bootstrap"></p>
 
 ### Backend
 
-<p>
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-    width="45"
-    height="45"
-    title="Spring Boot"
-    alt="Spring Boot"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg"
-    width="45"
-    height="45"
-    title="Apache Tomcat"
-    alt="Apache Tomcat"
-  />
-</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" width="45" height="45" title="Spring Boot" alt="Spring Boot">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tomcat/tomcat-original.svg" width="45" height="45" title="Apache Tomcat" alt="Apache Tomcat"></p>
 
 ### Database
 
-<p>
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
-    width="45"
-    height="45"
-    title="MySQL"
-    alt="MySQL"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-    width="45"
-    height="45"
-    title="Firebase"
-    alt="Firebase"
-  />
-</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="45" height="45" title="MySQL" alt="MySQL">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" width="45" height="45" title="Firebase" alt="Firebase"></p>
 
 ### Tools
 
-<p>
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-    width="45"
-    height="45"
-    title="Git"
-    alt="Git"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-    width="45"
-    height="45"
-    title="GitHub"
-    alt="GitHub"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-    width="45"
-    height="45"
-    title="VS Code"
-    alt="VS Code"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
-    width="45"
-    height="45"
-    title="IntelliJ IDEA"
-    alt="IntelliJ IDEA"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
-    width="45"
-    height="45"
-    title="Postman"
-    alt="Postman"
-  />
-
-  <img
-    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg"
-    width="45"
-    height="45"
-    title="Maven"
-    alt="Maven"
-  />
-</p>
+<p><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" title="Git" alt="Git">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" title="GitHub" alt="GitHub">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45" title="VS Code" alt="VS Code">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" width="45" height="45" title="IntelliJ IDEA" alt="IntelliJ IDEA">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" width="45" height="45" title="Postman" alt="Postman">&nbsp;&nbsp;<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/maven/maven-original.svg" width="45" height="45" title="Maven" alt="Maven"></p>
 
 ---
 
@@ -244,38 +86,49 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 
 <div align="center">
 
-<img
-  height="180"
-  src="./profile/stats.svg"
-  alt="GitHub Stats"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/overview.dark.svg"
+  />
+  <img
+    src="./profile/overview.light.svg"
+    width="100%"
+    alt="GitHub Overview"
+  />
+</picture>
 
-<img
-  height="180"
-  src="./profile/top-langs.svg"
-  alt="Most Used Languages"
-/>
+<br><br>
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./profile/languages.dark.svg"
+  />
+  <img
+    src="./profile/languages.light.svg"
+    width="100%"
+    alt="Most Used Languages"
+  />
+</picture>
 
 </div>
 
 ---
 
-# 🐍 Contribution Activity
+# 📈 Contribution Activity
 
 <div align="center">
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/SilentK15/SilentK15/output/github-snake-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/SilentK15/SilentK15/output/github-snake.svg"
+    srcset="./profile/contributions.dark.svg"
   />
   <img
-    alt="GitHub Contribution Snake"
-    src="https://raw.githubusercontent.com/SilentK15/SilentK15/output/github-snake-dark.svg"
+    src="./profile/contributions.light.svg"
+    width="100%"
+    alt="GitHub Contribution History"
   />
 </picture>
 
@@ -299,17 +152,11 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 ### Thanks for visiting my profile!
 
 <a href="https://github.com/SilentK15">
-  <img
-    src="https://img.shields.io/badge/-Explore%20My%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white"
-    alt="Explore GitHub"
-  />
+<img src="https://img.shields.io/badge/-Explore%20My%20Repositories-181717?style=for-the-badge&logo=github&logoColor=white" alt="Explore GitHub">
 </a>
 
 <a href="https://www.linkedin.com/in/kshitij-shete-6b55512b6/">
-  <img
-    src="https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
-    alt="Connect on LinkedIn"
-  />
+<img src="https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn">
 </a>
 
 </div>
