@@ -111,12 +111,12 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 <div align="center">
 
 <img
-  src="https://github-readme-stats.vercel.app/api?username=SilentK15&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff"
+  src="./profile/stats.svg"
   width="49%"
   alt="GitHub Stats"
 />
 <img
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=SilentK15&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&langs_count=8"
+  src="./profile/top-langs.svg"
   width="49%"
   alt="Most Used Languages"
 />
@@ -124,7 +124,7 @@ I enjoy turning ideas into working applications — from responsive interfaces a
 <br><br>
 
 <img
-  src="https://github-readme-streak-stats.herokuapp.com/?user=SilentK15&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6e40&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e"
+  src="https://streak-stats.demolab.com/?user=SilentK15&theme=tokyonight&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6e40&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e"
   width="60%"
   alt="GitHub Streak"
 />
