@@ -1,4 +1,4 @@
-name: Generate Profile Stats
+name: Generate GitHub Stats
 
 on:
   schedule:
@@ -9,24 +9,29 @@ on:
 permissions:
   contents: write
 
-concurrency:
-  group: profile-stats
-  cancel-in-progress: false
-
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v7
-
-      - name: Generate Profile Cards
-        uses: seijikohara/profile-cards-action@v1
+      - name: Generate GitHub Profile Stats
+        uses: shinpr/github-profile-stats@v1
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           username: ${{ github.repository_owner }}
-          cards: overview,languages,contributions
+          profile: default
           output-dir: profile
-          themes: light,dark
-          commit: true
+
+      - name: Commit generated cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add profile/
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: update GitHub profile stats"
+            git push
+          fi
