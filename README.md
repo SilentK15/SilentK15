@@ -1,6 +1,6 @@
 <!-- ===================== CONTRIBUTION SNAKE ===================== -->
 
-<p align="center">
+<p align="centerr">
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
